@@ -151,20 +151,274 @@ button.go {
 }
 .top-banner-txt {
     margin-top: 30px;
-/* }
-.top-banner-img img {
-    width: 70%;
-} */
-
-
+}
 /* top banner end  */
 
+/* gamer part  */
+section.gamer-area {
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.gamer-img img {
+    width: 100%;
+}
+section.gamer-area {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.gamer-text {
+    text-align: end;
+}
+
+.gamer-text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.gamer-text p {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    width: 550px;
+}
+
+.gamer-text button {
+    border: 0;
+    padding: 13px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #FF42A5;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+p.purpose span {
+    font-weight: 700;
+    color: #615b5b;
+}
 
 
+/* gamer part end */
 
+section.cardBox {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
 
+.games-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+.games-card div img {
+    width: 100%;
+}
+section.cardBox h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
 
+section.cardBox p {
+    font-weight: 300;
+}
 
+.games-card div p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Overlay  start*/
+
+/* Container for the image and overlay */
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Image styles */
+.image-container img {
+    transition: transform 0.3s ease; /* Add a smooth transition to the scaling effect */
+}
+
+/* Overlay styles (initially transparent) */
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Hover effect */
+.image-container:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.image-container:hover .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: block;
+
+}
+
+/* Overlay  end*/
+
+section.play-part {
+    display: flex;
+    margin-top: 5rem !important;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.play-img {
+    display: flex;
+    align-items: flex-end;
+}
+.play-img img {
+    width: 100%;
+}
+.play-text {
+    width: 50%;
+    text-align: center;
+}
+
+.play-text h3 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+section.sponsor-game {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin-top: 5rem;
+}
+
+.sponsor-game-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sponsor-game-list p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.sponsor-game-list:hover {
+    border: 1px solid red;
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.sponsor-game-list img {
+    width: 20%;
+}
+.games-card {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.games-card div p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+footer.footer {
+    background: #0B0223;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    color: white;
+    width: 15%;
+    margin: auto;
+    padding: 50px 0px;
+    align-items: center;
+}
+
+.footer-link ul li {list-style: none;padding: 10px;}
+
+.footer-link ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link ul {
+    display: flex;
+    width: 38%;
+    margin: auto;
+}
+
+.footer-link ul li a:hover {
+    color: #c9baba;
+}
+
+.footer-link ul li a:hover {
+    color: #c9baba;
+}
+
+.footer-social {
+    color: white;
+    width: 10%;
+    margin: auto;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.footer-social i {
+    padding: 0px 5px;
+    font-size: 20px;
+}
+
+.footer-terms ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-terms ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+.footer-terms {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+footer.footer p {
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.footer-logo h3 {
+    margin-left: 8px;
+    font-size: 30px;
+}
 
 
 

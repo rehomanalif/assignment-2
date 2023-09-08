@@ -53,13 +53,103 @@
         width: 100%;
     }
 
+    section.gamer-area {
+        flex-direction: column;
+    }
+    
+    .gamer-text p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .games-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .games-card div p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    section.play-part {
+        flex-direction: column;
+    }
+    
+    .play-text {
+        margin-bottom: 30px;
+    }
+    
+    section.sponsor-game {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .sponsor-game-list p {
+        font-size: 10px;
+    }
+
+    .footer-link ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .footer-terms ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-social {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-logo h3 {
+        margin-left: 5px;
+        font-size: 25px;
+    }
+
 
 
 }
 
 /* Tablet Device  */
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 577px) and (max-width: 960px) {
 
+    nav {
+        flex-direction: column;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .nav-social-icon {
+        width: 80%;
+        margin-top: 10px;
+    }
+    
+    .nav-link ul {
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .nav-link ul li {
+        margin-bottom: 7px;
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    section.top-banner {
+        flex-direction: column-reverse;
+    }
+    
     .nav-link ul {
         flex-direction: row;
         width: 100%;
@@ -68,6 +158,40 @@
     .nav-social-icon {
         width: 40%;
     }
+
+    .games-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .games-card div p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    section.play-part {
+        flex-direction: column;
+    }
+    
+    .play-text {
+        margin-bottom: 30px;
+    }
+    
+    section.sponsor-game {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .sponsor-game-list p {
+        font-size: 10px;
+    }
+    
+    .games-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .sponsor-game-list p {
+        font-size: 15px;
+    }
+
+
 
 
     
